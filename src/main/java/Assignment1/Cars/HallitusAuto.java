@@ -7,7 +7,7 @@ public class HallitusAuto implements Auto {
     private boolean isUsed = false;
 
 
-    /**
+    /*
      * @.pre true
      * @param  matka Matka
      * @return boolean
@@ -19,7 +19,7 @@ public class HallitusAuto implements Auto {
     }
 
 
-    /**
+    /*
      * @.pre true
      * vapauttaa auton muille ja printaa onnistumis tekstin
      * @param auto Auto

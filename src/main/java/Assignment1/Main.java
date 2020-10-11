@@ -14,15 +14,16 @@ public class Main {
         Matka matka = new Matka(125, "Turku", "Lohja");
         System.out.println("Matka"+ matka.getStartingLocation() + "->" + matka.getDestination());
         pickCar(opiskelija, matka);
-
+        drive(opiskelija, matka);
     }
 
 
-
-
-
-
-
+    /**
+     * @.pre opiskelija != null && matke != null
+     * @param opiskelija
+     * @param matka
+     * @.post matka.car = Auto
+     */
     private static void pickCar(Opiskelija opiskelija, Matka matka) {
         Auto hallitusAuto = new HallitusAuto();
         Auto vuokraAuto = new VuokarAuto();
@@ -36,7 +37,7 @@ public class Main {
         } else {
             matka.setCarUsed(vuokraAuto);
         }
-       drive(opiskelija, matka);
+
     }
 
     /**

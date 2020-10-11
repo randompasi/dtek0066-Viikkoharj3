@@ -5,7 +5,7 @@ import Assignment1.POJO.Matka;
 public class VuokarAuto implements Auto {
 
 
-    /**
+    /*
      * @.pre true
      * @param  matka Matka
      * @return boolean
@@ -15,7 +15,7 @@ public class VuokarAuto implements Auto {
     }
 
 
-    /**
+    /*
      * makes call for the payment if user return right car
      * @param auto Auto
      *
