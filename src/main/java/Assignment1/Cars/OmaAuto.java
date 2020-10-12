@@ -11,6 +11,7 @@ public class OmaAuto implements Auto {
 
 
     /*
+    *
      * @.pre true
      * @param  matka Matka
      * @return RESULT = true or false with 50% change
@@ -38,6 +39,7 @@ public class OmaAuto implements Auto {
     }
 
     /*
+     *  Fixes car if it is broken
      * @.pre true
      *
      * @param auto Auto

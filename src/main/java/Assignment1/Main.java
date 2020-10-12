@@ -7,6 +7,7 @@ import Assignment1.POJO.Matka;
 import Assignment1.POJO.Opiskelija;
 import Assignment1.Cars.VuokarAuto;
 
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,7 +16,9 @@ public class Main {
         System.out.println("Matka"+ matka.getStartingLocation() + "->" + matka.getDestination());
         pickCar(opiskelija, matka);
         drive(opiskelija, matka);
+
     }
+
 
 
     /**
