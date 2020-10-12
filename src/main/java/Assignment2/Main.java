@@ -60,10 +60,6 @@ System.out.println("Tassa kohtaa luodut kyltit:");
 
 
 
-
-
-
-
     static void print(final int l, final int k, final String m, final String t) {
         final int k2 = (k-1)/2;
         final int l2 = (l-t.length()-2)/2;
