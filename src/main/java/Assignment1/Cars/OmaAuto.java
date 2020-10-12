@@ -10,7 +10,7 @@ public class OmaAuto implements Auto {
 
 
 
-    /*
+    /**
     *
      * @.pre true
      * @param  matka Matka
@@ -21,7 +21,7 @@ public class OmaAuto implements Auto {
         return ehjä;
     }
 
-    /*
+    /**
      * @.pre true
      * @.post ehjä = true
      */
@@ -29,7 +29,7 @@ public class OmaAuto implements Auto {
         ehjä = true;
     }
 
-    /*
+    /**
      * looks is car broken
      * @.pre true
      * @return boolean
@@ -38,7 +38,7 @@ public class OmaAuto implements Auto {
         return ehjä;
     }
 
-    /*
+    /**
      *  Fixes car if it is broken
      * @.pre true
      *

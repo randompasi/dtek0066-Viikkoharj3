@@ -18,6 +18,10 @@ repositories {
     }
 }
 
+javadoc {
+    options.addStringOption('Xdoclint:none', '-quiet')
+}
+
 dependencies {
 //    implementation 'org.openjfx:javafx-base:15'
 //    implementation 'org.openjfx:javafx-controls:15'

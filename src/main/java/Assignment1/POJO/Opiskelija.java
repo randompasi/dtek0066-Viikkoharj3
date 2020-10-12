@@ -19,15 +19,9 @@ public class Opiskelija {
         this.location = location;
     }
 
-    public String getName() {
-        return name;
-    }
 
     public Auto getCar() {
         return  car;
-    }
-    public String getLocation() {
-        return location;
     }
 
     public void setLocation(String location) {

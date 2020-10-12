@@ -6,7 +6,7 @@ public class Dimension {
     private int length;
 
 
-    /*
+    /**
     @.pre height != null && height != null
     @.post getLenght.equals(length) && getHeight.equals(height)
      */
@@ -17,7 +17,7 @@ public class Dimension {
     }
 
 
-    /*
+    /**
 
      * @.pre true
      * @.post RESULT == (height)
@@ -26,7 +26,7 @@ public class Dimension {
         return height;
     }
 
-    /*
+    /**
     @.pre height != null
     @.post getHeight.equals(height)
      */
@@ -35,7 +35,7 @@ public class Dimension {
         this.height = height;
     }
 
-    /*
+    /**
      * @.pre true
      * @.post RESULT == (length)
      */
@@ -44,7 +44,7 @@ public class Dimension {
     }
 
 
-    /*
+    /**
     @.pre height != null
     @.post getLeight.equals(length)
      */
